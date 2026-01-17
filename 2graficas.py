@@ -3,8 +3,8 @@ import matplotlib.pyplot as plt
 import math
 
 x = np.linspace(-5, 5, 100)
-plt.plot(x, x+1, label="x+1")
 plt.plot(x, x**2, label="x^2")
+plt.plot(x, x**3, label="x^3")
 
 plt.xlabel("Eje x")
 plt.ylabel("Eje y")
